@@ -1,0 +1,53 @@
+.profile {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border-radius: 2%;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(189, 180, 167);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description {
+  padding: 20px 0px;
+}
+
+.name {
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+.stats {
+  width: 100%;
+  display: flex;
+  border-top: rgb(221, 219, 219) solid 1px;
+}
+.stats li {
+  padding: 10px 0px;
+  width: 33.33%;
+  background-color: aliceblue;
+  border-right: rgb(221, 219, 219) solid 1px;
+}
+
+.stats li:last-child {
+  border: none;
+}
+
+.stats li span {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.stats li span:last-child {
+  font-weight: bolder;
+}

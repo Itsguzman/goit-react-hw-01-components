@@ -1,0 +1,25 @@
+.transactionHistory {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 50px auto;
+}
+
+.transactionHistory thead {
+  background-color: rgb(18, 214, 214);
+  color: #fff;
+}
+
+.transactionHistory tr {
+  text-transform: capitalize;
+
+  td {
+    padding: 7px;
+  }
+}
+
+.transactionHistory tbody tr:nth-of-type(even) {
+  background-color: whitesmoke;
+}
